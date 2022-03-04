@@ -28,7 +28,7 @@ func main() {
 	}
 }
 
-//Everything related to startup / shutdown
+//Everything related to startup / shutdown. To be
 func run(log *log.Logger) error {
 	// =========================================================================
 	// Configuration
