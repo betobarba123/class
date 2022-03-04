@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 
-VERSION := 1.0
+BUILD_COMMIT := $(shell git rev-parse HEAD)
+BUILD_VERSION := $(shell git describe --tags)
 
 tidy:
 	go mod tidy
