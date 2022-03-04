@@ -19,6 +19,7 @@ import (
 var build = "develop"
 
 func main() {
+	//Cambios de alta clase
 	log := log.New(os.Stdout, "SALES: ", log.LstdFlags|log.Lmicroseconds|log.Lshortfile)
 
 	if err := run(log); err != nil {
